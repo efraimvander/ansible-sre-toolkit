@@ -9,7 +9,7 @@ O objectivo é simular cenários reais de produção, incluindo provisionamento 
 - Automatizar tarefas repetitivas de administração de sistemas
 - Aplicar boas práticas de organização e reutilização com Ansible (roles, inventories, playbooks)
 - Garantir consistência e idempotência na configuração de sistemas
-- Simular ambientes reais (dev, staging, produção)
+- Simular ambientes reais
 
 ## Funcionalidades
 - Setup base de servidores (utilizadores, pacotes)
