@@ -1,0 +1,23 @@
+
+
+
+
+```yaml
+roles/common/tasks/main.yml
+```
+
+```yaml
+- name: Update apt cache
+  apt:
+    update_cache: yes
+  become: yes
+
+- name: Install basic packages
+  apt:
+    name:
+      - curl
+      - vim
+      - git
+    state: present
+  become: yes
+    ```
